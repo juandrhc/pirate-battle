@@ -1,0 +1,43 @@
+.game-menu {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  padding: 24px;
+}
+
+.game-menu__logo {
+  width: 30%;
+}
+
+.game-menu h1 {
+  font-size: 48px;
+  margin: 0;
+  color: #ffc857;
+}
+
+.game-menu p {
+  font-size: 18px;
+}
+
+.game-menu button {
+  padding: 14px 32px;
+  background-color: #ffc857;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.game-menu button:hover {
+  background-color: #ffdb87;
+}
+
+.game-menu button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -5px;
+}
